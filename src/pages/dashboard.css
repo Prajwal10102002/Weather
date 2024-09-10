@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .weather-dashboard {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2em;
+    color: #3f51b5;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .search-btn, .location-btn {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .search-btn {
+    margin-bottom: 10px;
+  }
+  
+  .location-btn {
+    background-color: #6c757d;
+  }
+  
+  .separator {
+    margin: 10px;
+    color: #aaa;
+  }
+  
+  .current-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-details {
+    color: #333;
+  }
+  
+  .weather-details h2 {
+    color: #3f51b5;
+    margin-bottom: 10px;
+  }
+  
+  .weather-icon {
+    text-align: center;
+  }
+  
+  .weather-icon img {
+    width: 50px;
+  }
+  
+  .forecast-section {
+    margin-top: 20px;
+  }
+  
+  .forecast-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .forecast-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forecast-card {
+    background-color: #90a4ae;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 22%;
+    text-align: center;
+  }
+  
+  .forecast-card img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-card h4 {
+    margin-bottom: 10px;
+  }
+  
